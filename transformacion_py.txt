@@ -12,3 +12,6 @@ df_1 ['Ventas'] = df['Cantidad'] * df['Precio'] - IGV
 
 # Guardar DataFrame transformado
 df_1.to_csv('datos_transformados.csv', index=False)
+
+
+
